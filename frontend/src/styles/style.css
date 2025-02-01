@@ -1,0 +1,28 @@
+.card{
+  min-height: 30rem;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.01);
+  }
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.nav-link {
+    color: #ccc; /* Звичайний колір посилання */
+    text-decoration: none; /* Прибрати підкреслення за замовчуванням */
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+.active-link {
+    color: #007bff; /* Синій колір для активного посилання */
+    font-weight: bold; /* Виділити активне посилання */
+    text-decoration: underline; /* Додати підкреслення */
+}
+

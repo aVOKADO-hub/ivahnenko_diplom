@@ -57,7 +57,7 @@ const PersonnelTable = () => {
     };
 
     return (
-        <div className="container mt-5">
+        <div className="table-container container mt-5">
             <h2>Облік кадрів</h2>
             <table className="table table-striped">
                 <thead>

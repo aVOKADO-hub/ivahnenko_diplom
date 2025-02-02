@@ -14,12 +14,12 @@ const Dashboard = () => {
         // Завантажуємо новини
         axios
             .get('https://gnews.io/api/v4/top-headlines?lang=ua&country=ua&category=general&apikey=ef5af941adcee1e5d2ab9e0e06571f0b')
-            .then((response) => setNews(response.data.articles.slice(0, 10))) // Беремо тільки 5 новин
+            .then((response) => setNews(response.data.articles.slice(0, 10)))
             .catch((error) => console.error('Помилка завантаження новин:', error));
     }, []);
 
     return (
-        <div>
+        <div className='dashboard'>
             <h2 className="mb-4">Головна сторінка</h2>
 
             {/* Статистика */}

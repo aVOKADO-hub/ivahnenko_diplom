@@ -7,6 +7,7 @@ import EditPersonnel from './components/EditPersonnel';
 import Dashboard from './components/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import './styles/style.css';
+import './App.css';
 
 const App = () => {
   const [showEditModal, setShowEditModal] = useState(false);

@@ -25,4 +25,18 @@
     font-weight: bold; /* Виділити активне посилання */
     text-decoration: underline; /* Додати підкреслення */
 }
+.dashboard {
+  position: relative;
+  z-index: 1;
+
+}
+.table-container ,.login-container{
+
+  background-color: #fff;
+  border-radius: 8px;
+
+}
+.table-container,.login-container{
+  padding: 20px;
+}
 
